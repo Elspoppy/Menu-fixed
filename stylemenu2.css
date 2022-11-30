@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 15px;
+}
+
+.nav_logo{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+
+input[type=text] {
+    width: 80%;
+    height: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background: url('https://cdn-icons-png.flaticon.com/512/751/751463.png') 3px 1px no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-size: auto 90%;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.inputstyle{
+border-bottom: 1px solid white;
+padding-bottom: 15px;
+}
+
+
+
+li{
+	list-style: none;
+	border-top: 1px solid white;
+	padding: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+li:first-child{
+	border: none;
+}
+
+
+li:before{
+	content: url('apple.svg');
+	position: absolute;
+	align-items: center;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+
+}
+
+a:hover{
+	color: black;
+}
+
+header{
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	width: 100%;
+}
+
+
+.wrapper{
+	
+	text-align: center;
+	padding-top: 180px;
+}
+
+.slide_menu{
+	display: inline-block;
+	
+}
+.image_size{
+	border: 2px solid whitesmoke;
+	box-shadow: 10px 5px 5px lightgrey;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 100px;
+	width: 300px;
+
+}
+
+.slide_position>p{
+	border: 1px solid black;
+	 border-radius: 50%;
+	 width: 20px;
+}
+
+.slide_position{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 300px;
+}
+
+.slide1,
+.slide2{
+	position: absolute;
+}
+
+.slide1{
+	left: 38%;
+	
+}
+
+.slide2{
+	right: 40%;
+}
